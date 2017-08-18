@@ -8,5 +8,5 @@ else
 fi
 
 for site in "${SITES[@]}"; do
-  rsync -av "$site"/ root@typeable.io:/var/www/"$site"
+  rsync -av --delete "$site"/ root@typeable.io:/var/www/"$site"
 done
