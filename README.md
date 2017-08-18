@@ -14,11 +14,19 @@ Build blog in `blog.typeable.io` directory
 
 ```
 stack build
-stack exec site rebuild
+stack exec blog rebuild
 ```
 
 ## Deploy
 
+Deploy static sites with
+
 ```
-./deploy.sh
+./deploy.sh [target]
+```
+
+example:
+
+```
+./deploy.sh blog.typeable.io
 ```
