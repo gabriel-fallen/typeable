@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="76"
+   height="105"
+   viewBox="0 0 76 105"
+   version="1.1"
+   id="svg3777"
+   sodipodi:docname="typeable-t.svg"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06">
+  <metadata
+     id="metadata3781">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1408"
+     id="namedview3779"
+     showgrid="false"
+     inkscape:zoom="3.6009223"
+     inkscape:cx="222.96442"
+     inkscape:cy="31.19997"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3777" />
+  <defs
+     id="defs3773">
+    <filter
+       id="shadow">
+      <feOffset
+         dx="0"
+         dy="4"
+         in="SourceAlpha"
+         result="shadowOffset"
+         id="feOffset3760" />
+      <feGaussianBlur
+         stdDeviation="4"
+         in="shadowOffset"
+         result="shadowBlur"
+         id="feGaussianBlur3762" />
+      <feColorMatrix
+         type="matrix"
+         values="0 0 0 0 0.322, 0 0 0 0 0.561, 0 0 0 0 0.8, 0 0 0 0.25 0"
+         in="shadowBlur"
+         result="shadowBlue"
+         id="feColorMatrix3764" />
+      <feMerge
+         id="feMerge3770">
+        <feMergeNode
+           in="shadowBlue"
+           id="feMergeNode3766" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode3768" />
+      </feMerge>
+    </filter>
+  </defs>
+  <path
+     d="M 67.133,53.023 H 17.98 v 30.86 H 10 v -69.11 h 7.98 v 31.05 h 49.155 v 7.2 z"
+     id="path3775"
+     inkscape:connector-curvature="0"
+     style="fill:#106ecc;fill-rule:evenodd;filter:url(#shadow)"
+     sodipodi:nodetypes="cccccccccc" />
+</svg>
