@@ -1,0 +1,90 @@
+body {
+    color: black;
+    font-size: 16px;
+    margin: 0px auto 0px auto;
+    width: 800px;
+}
+
+header {
+    border-bottom: 2px solid black;
+    margin-bottom: 30px;
+    padding: 12px 0px 12px 0px;
+}
+
+nav {
+    text-align: right;
+}
+
+nav a {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer {
+    border-top: solid 2px black;
+    color: #555;
+    font-size: 14px;
+    margin-top: 30px;
+    padding: 12px 0px 12px 0px;
+    text-align: right;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+article .header {
+    color: #555;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.logo a {
+    color: black;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contacts {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.contacts li {
+    position: relative;
+    display: inline-block;
+    margin: 0 2em 2em;
+    padding-left: 2em;
+}
+
+/* Contacts icons */
+.contacts a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2em;
+    height: 2em;
+}
+
+.contacts-mail:before {
+    background: url('/images/mail.svg') no-repeat;
+}
+.contacts-github:before {
+    background: url('/images/github.svg') no-repeat;
+}
+.contacts-twitter:before {
+    background: url('/images/twitter.svg') no-repeat;
+}
