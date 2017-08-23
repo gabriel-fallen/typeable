@@ -189,6 +189,7 @@ we'll make it to the Hackage.
 [nixpkgs-stack]: https://nixos.org/nixpkgs/manual/#how-to-build-a-haskell-project-using-stack
 [cabal2nix-issue-stack]: https://github.com/NixOS/cabal2nix/issues/212
 [stackage2nix]: https://github.com/4e6/stackage2nix
+[stackage2nix-examples]: https://github.com/4e6/stackage2nix-examples
 [lts-haskell]: https://github.com/fpco/lts-haskell
 [all-cabal-hashes]: https://github.com/commercialhaskell/all-cabal-hashes
 [mtl-revisions]: https://hackage.haskell.org/package/mtl-2.2.1/revisions/
